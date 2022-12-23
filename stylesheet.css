@@ -2,11 +2,12 @@
 } */
 
 .homepage-banner {
-  height: 555px;
+  height: 400px;
   background-color: #199293;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 40px;
 
   /* &-text {
     font-size: 61px;
@@ -22,7 +23,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  margin: 16px 0px 16px 0px;
+  /* margin: 16px 0px 16px 0px; */
 }
 
 // Smallest device
@@ -63,7 +64,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 352px;
+  height: 388px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,4 +82,43 @@
     // transform: scale(1.02);
     opacity: 1;
   }
+}
+
+.title {
+  background-color: #199293;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+}
+
+.slack_link {
+  display: flex;
+  color: #199293;
+  justify-content: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.slack_link:hover {
+  background-color: #a4f9c8;
+}
+
+.slack_link_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.slack_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slack_image {
+  width: 5vw;
+  min-width: 60px;
 }

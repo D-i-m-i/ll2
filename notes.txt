@@ -1,1 +1,7 @@
 fill in local experiences
+add banner with copyright, name and year
+add Slack link
+embed maps
+buy domain name
+add dates, types to annual events
+ask for public input
