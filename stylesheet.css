@@ -19,11 +19,33 @@
   /* border: 1px solid red; */
 }
 
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 388px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.2s;
+  opacity: 0.7;
+  text-decoration: none;
+
+  /* &:hover {
+    // transform: scale(1.02);
+    opacity: 1;
+  } */
+}
+
 .cards-categories {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  /* margin: 16px 0px 16px 0px; */
 }
 
 // Smallest device
@@ -50,37 +72,14 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards-categories {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards-categories {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 388px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 32px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  transition: 0.2s;
-  opacity: 0.7;
-  text-decoration: none;
-
-  &:hover {
-    // transform: scale(1.02);
-    opacity: 1;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -91,6 +90,7 @@
   align-items: center;
   color: white;
   height: 150px;
+  margin-bottom: 10px;
 }
 
 .slack_link {
@@ -102,7 +102,7 @@
 }
 
 .slack_link:hover {
-  background-color: #a4f9c8;
+  background-color: #c7ebf0;
 }
 
 .slack_link_text {
