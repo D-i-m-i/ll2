@@ -92,12 +92,13 @@
 .title {
   background-color: #199293;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: white;
   height: 150px;
   margin-bottom: 10px;
   font-size: calc(1.3em + 1.2vw);
+  padding: 0 80px 0 10px;
 }
 
 .slack_link {
@@ -143,6 +144,11 @@
 .banner-image {
   width: 65%;
   min-width: 310px;
+}
+
+.logo-image {
+  width: 26%;
+  min-width: 100px;
 }
 
 .footer {
