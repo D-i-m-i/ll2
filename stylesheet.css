@@ -17,7 +17,7 @@
 }
 
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .page-container {
@@ -92,13 +92,13 @@
 .title {
   background-color: #199293;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   color: white;
   height: 150px;
   margin-bottom: 10px;
-  font-size: calc(1.3em + 1.2vw);
-  padding: 0 80px 0 10px;
+  font-size: calc(1.1em + 1.2vw);
+  padding: 0 10px 0 10px;
 }
 
 .slack_link {
@@ -147,8 +147,8 @@
 }
 
 .logo-image {
-  width: 26%;
-  min-width: 100px;
+  width: 25%;
+  min-width: 65px;
 }
 
 .footer {
@@ -163,7 +163,7 @@
   color: white;
   width: 100%;
   margin-top: 16px;
-  font-size: calc(0.5em + 1vw);
+  font-size: calc(0.3em + 1vw);
 }
 
 .footer-links {
