@@ -95,10 +95,10 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  height: 150px;
+  height: fit-content;
   margin-bottom: 10px;
-  font-size: calc(1.1em + 1.2vw);
-  padding: 0 10px 0 10px;
+  font-size: calc(0.9em + 1.1vw);
+  padding: 10px 10px 10px 10px;
 }
 
 .slack_link {
@@ -147,7 +147,8 @@
 }
 
 .logo-image {
-  width: 25%;
+  /* width: 25%; */
+  width: 7vw;
   min-width: 65px;
 }
 
