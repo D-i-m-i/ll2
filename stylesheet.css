@@ -3,7 +3,7 @@
 
 .homepage-banner {
   height: 20vw;
-  min-height: 160px;
+  min-height: 140px;
   background-color: #199293;
   display: flex;
   justify-content: center;
@@ -113,11 +113,11 @@
   background-color: #c7ebf0;
 }
 
-.slack_link_text {
+.slack-link-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding-left: 10px;
 }
 
 .slack_logo {
@@ -126,9 +126,9 @@
   align-items: center;
 }
 
-.slack_image {
+.slack-image {
   width: 5vw;
-  min-width: 40px;
+  min-width: 30px;
 }
 
 /* .footer {
