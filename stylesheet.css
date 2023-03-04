@@ -187,11 +187,17 @@
 }
 
 .footer-copyright {
-  margin-left: 20px;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
 }
 
 .creator {
-  margin-right: 20px;
+  margin-right: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 30%; */
 }
 
 .message-to-users {
@@ -199,4 +205,11 @@
   margin: 0 20px 10px 20px;
   /* white-space: nowrap; */
   color: black;
+}
+
+.media-icon {
+  display: block;
+  width: 3vw;
+  min-width: 15px;
+  max-width: 50px;
 }
