@@ -40,7 +40,10 @@
   transition: 0.2s;
   opacity: 0.7;
   text-decoration: none;
-  aspect-ratio: 3 / 1;
+  height: 16vw;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
 
   /* &:hover {
     // transform: scale(1.02);
@@ -212,4 +215,8 @@
   width: 3vw;
   min-width: 15px;
   max-width: 50px;
+}
+
+.padding-links {
+  padding: 20px;
 }
